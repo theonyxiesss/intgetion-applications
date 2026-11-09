@@ -1,13 +1,14 @@
 {
   "name": "@intgetion/applications",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Applications for INTGETION JOB LIST: applying, eligibility, the status pipeline, employer views and contact reveals.",
   "license": "UNLICENSED",
   "type": "module",
   "exports": {
     ".": "./src/modules/applications/service/index.ts",
     "./ports": "./src/ports.ts",
-    "./server": "./src/server/app.ts"
+    "./server": "./src/server/app.ts",
+    "./db": "./src/db/owned.ts"
   },
   "scripts": {
     "dev": "tsx watch src/server/main.ts",

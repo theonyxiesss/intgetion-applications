@@ -64,3 +64,5 @@ The cross-module tests that saved a full candidate profile, contacts and the ski
 - `./server` — `createApp()` HTTP handler
 
 Depends on `@intgetion/kit` (v0.3.1), `@intgetion/candidates` (v0.1.0, completeness rules and types) and `@intgetion/companies` (v0.1.1, URL rule) by git tag.
+
+`./db` — table definitions (Drizzle) for read-only use by other modules.
